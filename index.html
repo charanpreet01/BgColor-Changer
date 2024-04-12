@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Background Color Changer</title>
+    <style>
+        body{
+            background-color: #212121;
+            color: #fff;
+            height: 85vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;           
+        }
+        h1{
+          text-align: center;
+        }
+        button{
+          font-size: 1.5rem;
+          padding: 5px 13px;
+          cursor: pointer;
+          border-radius: 10px;
+          border: 0;
+          margin-right: 9px;
+        }
+        h2{
+          margin-top: 25px;
+        }
+    </style>
+  </head>
+  <body>
+    <h1>Start should change the Background color every second</h1>
+    <div class="btns">
+      <button id="start">Start</button>
+      <button id="stop">Stop</button>
+    </div>
+    <h2></h2>
+    <script src="script.js"></script>
+  </body>
+</html>
